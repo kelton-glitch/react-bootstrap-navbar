@@ -1,16 +1,16 @@
 import React from 'react';
 import './App.css';
-import * as ReactBootStrap from "react-bootstrap";
-import DankMemes from "./Components/DankMemes";
-import Features from "./Components/Features";
-import Pricing from "./Components/Pricing";
-import MoreDeets from "./Components/MoreDeets";
-import NavBar from "./Components/Navbar"
+//import * as ReactBootStrap from "react-bootstrap";
+import DankMemes from "./Components/DankMemes.component";
+import Features from "./Components/Features.component";
+import Pricing from "./Components/Pricing.component";
+import MoreDeets from "./Components/MoreDeets.component";
+import NavBar from "./Components/Navbar.component"
 import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
+  //Link
 } from "react-router-dom";
 
 
